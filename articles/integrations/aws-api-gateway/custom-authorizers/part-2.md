@@ -34,9 +34,9 @@ You can [download a sample custom authorizer](https://github.com/auth0-samples/j
 As an example, the text of your .env file should look something like this when complete:
 
 ```text
-JWKS_URI=https://${account.namespace}.auth0.com/.well-known/jwks.json
-AUDIENCE=https://${account.namespace}.auth0.com/api/v2/    
-TOKEN_ISSUER=https://${account.namespace}.auth0.com/
+JWKS_URI=https://${account.namespace}/.well-known/jwks.json
+AUDIENCE=https://${account.namespace}/api/v2/    
+TOKEN_ISSUER=https://${account.namespace}/
 ```
 
 4. Test the custom authorizer locally.
